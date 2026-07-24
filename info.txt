@@ -1,0 +1,81 @@
+1) LEXICAL DENSITY
+
+
+lexical density = Number of content words
+                  ----------------------- * 100
+                  total words
+                  
+                  
+Example :
+system efficiently analyzes academic text.
+
+Word	Type
+system ->	noun
+efficiently	-> adverb
+analyzes ->	verb
+academic  ->	adjective
+text ->	noun
+
+Total words = 5
+
+Content words = 5
+soo lexical = 100%
+
+eg: so am very happy today=40%
+
+
+
+<--------------------------------------------------------------------------------->
+
+2) CLAUSE DENSITY
+
+clause density = Number of clauses
+                 -------------------
+                 Total sentences
+                 
+Example
+
+Sentence:
+
+“The system analyzes text and generates suggestions.”
+
+Clauses:
+
+1️⃣ The system analyzes text
+2️⃣ generates suggestions
+
+Total sentences = 1
+Clauses = 2
+
+clause density = 2/1 = 2
+
+
+<--------------------------------------------------------------------------------->
+(2023 - 2000) × 0.05
+= 23 × 0.05
+= 1.15
+(2010 - 2000) × 0.05
+= 0.5
+
+
+-------------------------------------------------------------------------------
+NOMINALISATION EXAMPLE:-
+
+
+Nominalization = turning actions into “things” (nouns)
+
+Verb → Noun
+analyze → analysis
+decide → decision
+improve → improvement
+
+
+EG:
+
+Without nominalization:
+
+We improved the system.
+
+With nominalization:
+
+We made an improvement to the system.

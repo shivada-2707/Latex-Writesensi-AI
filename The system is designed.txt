@@ -1,0 +1,19 @@
+lexical:-
+
+The system is designed for academic evaluation.
+Total words: 7
+Content words: system, designed, academic, evaluation
+
+Lexical density = 4 / 7
+
+
+
+
+
+
+
+
+
+clause:- 
+
+although the system was tested , it failed because the dataset was insufficient
