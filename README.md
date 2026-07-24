@@ -1,4 +1,4 @@
-# 🚀 WriteSense AI
+# WriteSense AI
 
 <div align="center">
 
