@@ -75,31 +75,69 @@ Unlike cloud-based writing assistants, WriteSense AI performs processing locally
 
 # 🛠 Technology Stack
 
-### Frontend
+## Frontend
 
-- HTML
-- CSS
-- JavaScript
+- HTML5
+- CSS3
+- JavaScript (ES6)
 - Chrome Extension API
 
-### Backend
+---
 
-- Python
+## Backend
+
+- Python 3
 - FastAPI
+- Uvicorn
 
-### AI & NLP
+---
+
+## AI & NLP
 
 - Ollama
 - LLaMA 3
 - LanguageTool
+- NLLB-200 (Multilingual Translation)
 - CrossRef API
+- Regular Expressions (Regex)
 
-### Tools
+---
+
+## Machine Learning / NLP Models
+
+- LLaMA 3
+- facebook/nllb-200-distilled-600M
+
+---
+
+## Libraries
+
+- Transformers (Hugging Face)
+- Requests
+- PyTorch
+- Python Standard Library
+
+---
+
+## Development Tools
 
 - Git
 - GitHub
-- VS Code
+- Visual Studio Code
+- Ubuntu Linux
 
+---
+
+## Supported Features
+
+- Grammar Correction
+- Academic Clarity Analysis
+- Research Paper Recommendation
+- Text Summarization
+- Multilingual Translation
+- Chrome Extension Integration
+- Local AI Inference
+- LaTeX-safe Processing
 ---
 
 # 📂 Project Structure
