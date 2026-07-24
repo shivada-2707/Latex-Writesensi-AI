@@ -44,22 +44,31 @@ Unlike cloud-based writing assistants, WriteSense AI performs processing locally
 # 🏗 System Architecture
 
 ```
-Chrome Extension
-        │
-        ▼
-   FastAPI Backend
-        │
- ┌──────┼───────────────┐
- │      │               │
- ▼      ▼               ▼
-Grammar Clarity     Research
-Backend Backend     Backend
- │      │               │
- ▼      ▼               ▼
-LanguageTool      Ollama LLaMA3
-        │
-        ▼
-     Improved Text
+                           +-----------------------+
+                           |   Chrome Extension    |
+                           |   (Overleaf Client)   |
+                           +-----------+-----------+
+                                       |
+                                       ▼
+                          +------------------------+
+                          |     FastAPI Gateway    |
+                          +-----------+------------+
+                                      |
+      -----------------------------------------------------------------------
+      |              |              |               |                      |
+      ▼              ▼              ▼               ▼                      ▼
++-------------+ +-------------+ +-------------+ +-------------+ +----------------+
+| Grammar API | | Clarity API | | Research API| | Summary API | | Translation API|
++------+------+ +------+------+ +------+------+ +------+------+ +--------+-------+
+       |               |               |               |                    |
+       ▼               ▼               ▼               ▼                    ▼
+ LanguageTool      Ollama LLaMA3    CrossRef API    Ollama LLaMA3    NLLB-200 Model
+ (Grammar Rules)   (Clarity AI)     + LLaMA3        (Summarizer)     (Multilingual)
+       |               |               |               |                    |
+       ----------------------------------------------------------------------
+                                      |
+                                      ▼
+                      Academic Writing Enhancement Results
 ```
 
 ---
